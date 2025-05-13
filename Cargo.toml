@@ -1,0 +1,16 @@
+[package]
+name = "rs-table2pgcopy"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+
+[dependencies.postgres]
+version = "0.19.10"
+default-features = false
+features = [
+]
