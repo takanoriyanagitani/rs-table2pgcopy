@@ -3,6 +3,11 @@ name = "rs-table2pgcopy"
 version = "0.1.0"
 edition = "2024"
 
+description = "COPY tablename TO STDOUT WITH BINARY using rust"
+license = "Apache-2.0"
+documentation = "https://docs.rs/crate/rs-table2pgcopy/latest"
+repository = "https://github.com/takanoriyanagitani/rs-table2pgcopy"
+
 [lints.rust]
 unsafe_code = "forbid"
 
